@@ -5,7 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Main2Activity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
 
     <EditText
         android:id="@+id/editText"
@@ -23,56 +29,39 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
-        android:hint="กรุณาระบุบ้านเลขที่"/>
-
+        android:hint="อีเมล"/>
     <EditText
         android:id="@+id/editText3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="จุดสังเกตุ เช่น เยื้องกับโรงเรียนสตรี2"/>
-
-    <EditText
-        android:id="@+id/editText4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
         android:inputType="textPersonName"
         android:text=""
-        android:hint="กรุณาเลือกแขวง/ตำบน"/>
+        android:hint="เพศ"/>
 
-    <EditText
-        android:id="@+id/editText5"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text=""
-        android:hint="กรุณาเลือกเขต/อำเภอ"/>
-
-    <EditText
-        android:id="@+id/editText6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text=""
-        android:hint="กรุณารหัสไปรษณีย์"/>
-
-    <EditText
-        android:id="@+id/editText7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text=""
-        android:hint="โปรดกรอกเหมายเลขโทรศัพท์ของคุณ"/>
+        android:text="สถานะ"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="บันทึกข้อมูล" />
+        android:text="ยืนยันตัวตน" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ลบบัญชีผู้ใช้" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ออกจากระบบ" />
 
 
 </LinearLayout>
